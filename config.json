@@ -1,0 +1,9 @@
+{
+  "NAME": "USERNAME",
+  "PASS": "PASSWORD",
+  "FORUM_URL": "https://tbgforums.com/forums/",
+  "TOPIC_ID": "XXXX",
+  "RESPONSE_THREAD_ID": "XXXX",
+  "LAST_POST_FILE": "last_post.json"
+  "PREFIX": "xx!"
+}
