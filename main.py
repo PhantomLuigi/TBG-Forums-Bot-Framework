@@ -52,7 +52,7 @@ def save_last_msg_id(msg_id):
 
 def convert_date_to_timestamp(date_str):
     try:
-        # Parse the date from format "Mar 20, 2025, 11:29:50 AM"
+        # Parse the date from format, e.g. "Mar 20, 2025, 11:29:50 AM"
         dt_object = datetime.strptime(date_str, "%b %d, %Y, %I:%M:%S %p")
         return int(time.mktime(dt_object.timetuple()))  # Convert to Unix timestamp
     except ValueError:
