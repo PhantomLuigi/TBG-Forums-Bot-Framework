@@ -32,3 +32,5 @@ The code will run its loop, wait 10 minutes before running again. If you want to
 
 **Q:** My bot is not finding any messages with the prefix even though they exist, what can I do?\
 **A:** Check that the prefix is set correctly, and that the bot is parsing the right topic ID, it will only scan the one topic, so if posts are in a different topic, then they are not being parsed.\
+
+## Any issues/suggestions/bugs, please contact me on discord. Username: phantomluigi
