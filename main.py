@@ -24,6 +24,9 @@ LAST_POST_FILE = config['LAST_POST_FILE']
 PREFIX = config['PREFIX']
 
 # Function to log in
+# Based off of code by realicraft and byron_inc_tbg
+# https://tbgforums.com/forums/index.php?msg=679679 (Log in code base)
+# Lithium code used for basic posting functions: https://replit.com/@ByronInc/Lithium-20#main.py
 def login():
     global main_session
     obtain_login = main_session.get(FORUM_URL + "index.php?action=login")
